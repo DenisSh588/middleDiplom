@@ -18,11 +18,6 @@ const modalWindows = () => {
         overlay.style.display = 'none'
     })
 
-    overlay.addEventListener('click', (e) =>{
-        
-        servicesModal.style.display = 'none'
-        overlay.style.display = 'none'
-    })
    
 }
 export default modalWindows

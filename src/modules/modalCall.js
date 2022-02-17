@@ -16,11 +16,7 @@ const modalCall = () => {
         overlay.style.display = 'none'
     })
 
-    overlay.addEventListener('click', (e) =>{
-        
-        headerModal.style.display = 'none'
-        overlay.style.display = 'none'
-    })
+    
    
 }
 export default modalCall

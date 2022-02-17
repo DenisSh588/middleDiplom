@@ -267,16 +267,7 @@ input.error {
   color: inherit;
   background-color: #f5f6f6;
 }
-#myImg{
-  display: none;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 9999;
-  width: 500px;
-  height: 700px;
-}
+
 #navigation {
   border: 0;
   border-radius: 0;
@@ -1595,6 +1586,7 @@ input.error {
 .overlay {
   display: none;
   position: fixed;
+  z-index: 1;
   top: 0;
   bottom: 0;
   left: 0;
@@ -1685,6 +1677,36 @@ input.error {
   
 }
 
+.hide_sertificate {
+  display: none;
+}
+
+.sertificate-modal--opened {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+}
+
+.sertificate-modal__close {
+  position: absolute;
+  bottom: 325px;
+  left: 207px;
+  font-size: 36px;
+  cursor: pointer;
+  z-index: 9999;
+}
+
+#myImg {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  width: 500px;
+  height: 750px;
+}
 
 @media (min-width: 576px) {
   .benefits-wrap {
