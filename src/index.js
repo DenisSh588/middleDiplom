@@ -3,7 +3,6 @@ import counter from './modules/counter'
 import scroll from './modules/scroll'
 import slider from './modules/slider'
 import calculator from './modules/calculator'
-import modalCall from './modules/modalCall'
 import modalWindows from './modules/modalWindows'
 
 
@@ -13,5 +12,4 @@ counter('27 january 2023 14:00:00')
 scroll()
 slider()
 calculator()
-modalCall()
 modalWindows()
