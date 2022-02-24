@@ -25,6 +25,9 @@ h3 {
   padding: 60px 0 80px;
   overflow: hidden;
 }
+.not-active{
+  display: none;
+}
 .section-title {
   text-transform: uppercase;
   text-align: center;
